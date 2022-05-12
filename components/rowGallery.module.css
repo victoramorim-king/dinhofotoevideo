@@ -1,0 +1,19 @@
+.rowGallery {
+    display: flex;
+    
+}
+
+.pic {
+    display: flex;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.pic2 {
+    display: flex;
+}
+.columnGallery {
+    display: flex;
+
+    
+}
+
