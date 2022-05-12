@@ -4,111 +4,16 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Layout from '../components/layout'
-import profilePic from '../public/teste.png'
-
+import CasamentoArLivrePic from '../public/casamento-ao-ar-livre.jpg'
+import { Gallery } from '../components/gallery'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <section className={styles.homeSection}>
-        <h2>Casamentos</h2>
-        <div>
-        <Image
-                    priority
-                    src={profilePic}
-                    className={styles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        <Image
-                    priority
-                    src={profilePic}
-                    className={styles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-
-
-        <Image
-                    priority
-                    src={profilePic}
-                    className={styles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        </div>
-        
+      <section className={styles.gallery}>
+         <Gallery title="Victor" paragraph="Esse é meu nome!" />
       </section>
-      
-      <section className={styles.homeSection}>
-        <h2>Debutantes</h2>
-        <div>
-        <Image
-                    priority
-                    src={profilePic}
-                    className={styles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        <Image
-                    priority
-                    src={profilePic}
-                    className={styles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-
-
-        <Image
-                    priority
-                    src={profilePic}
-                    className={utilStyles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        </div>
-
-      </section>
-
-      <section className={styles.homeSection}>
-        <h2>Infantil</h2>
-        <div>
-        <Image
-                    priority
-                    src={profilePic}
-                    className={utilStyles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        <Image
-                    priority
-                    src={profilePic}
-                    className={utilStyles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-
-
-        <Image
-                    priority
-                    src={profilePic}
-                    className={utilStyles.header}
-                    height={'253px'}
-                    width={'380px'}
-                    alt={'teste'}
-                  />
-        </div>
-        
-      </section>
-    </Layout>
+    </Layout >
   )
 }
 
