@@ -2,15 +2,23 @@
     display: flex;
     
 }
+@keyframes fadein {
+    from { opacity: 0.3; }
+    to { opacity: 1; } /* Padrão */
+}
 
 .pic {
     display: flex;
     margin-right: 2px;
     margin-bottom: 2px;
+    
 }
+
 .pic2 {
     display: flex;
+    
 }
+
 .columnGallery {
     display: flex;
 

@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "lodash": "^4.17.21",
     "next": "12.1.6",
     "react": "18.1.0",
+    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "18.1.0",
     "react-grid-gallery": "^0.5.5"
   },
