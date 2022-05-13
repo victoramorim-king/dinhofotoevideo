@@ -1,7 +1,23 @@
 import React, { DOMElement } from "react";
 import Image from 'next/image';
 import galleryStyles from './rowGallery.module.css';
-import CasamentoArLivrePic from '../public/casamento-ao-ar-livre.jpg';
+
+import  CasamentoArLivrePic  from '../public/casamento-ao-ar-livre.jpg';
+import hC3 from '../public/h-casal-3.jpg'
+import hC4 from '../public/h-casal-4.jpg'
+import hC5 from '../public/h-casal-5.jpg'
+import hC6 from '../public/h-casal-6.jpg'
+import hM from '../public/h-makeoff-1.jpg'
+import vC1 from '../public/v-casal-1.jpg'
+import vC2 from '../public/v-casal-2.jpg'
+import vC3 from '../public/v-casal-3.jpg'
+import vC4 from '../public/v-casal-4.jpg'
+import hN1 from '../public/h-noivo-1.jpg'
+import vN1 from '../public/v-noiva-1.jpg'
+import vN2 from '../public/v-noiva-2.jpg'
+import vN3 from '../public/v-noiva-3.jpg'
+import vN4 from '../public/v-noiva-4.jpg'
+
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -24,7 +40,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
         <div className={galleryStyles.pic}>
             <Image
                 priority
-                src="https://casamento.photosites.com.br/wp-content/uploads/2020/02/VAL_0373-scaled-600x899.jpg"
+                src={vC1}
                 height={'338px'}
                 width={'252px'}
                 alt={'teste'}
@@ -33,7 +49,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
         <div className={galleryStyles.pic}>
             <Image
                 priority
-                src="https://casamento.photosites.com.br/wp-content/uploads/2020/02/MG_0198-min-600x400.jpg"
+                src={hC3}
                 height={'338px'}
                 width={'508px'}
                 alt={'teste'}
@@ -48,7 +64,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <div className={galleryStyles.pic}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2020/02/DSC_0299-min-600x400.jpg"
+                        src={hC4}
                         height={'168px'}
                         width={'252px'}
                         alt={'teste'}
@@ -57,7 +73,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <div className={galleryStyles.pic}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2022/02/7dc2cd7f-58ca-4181-a28e-a9b1d96da3a0-600x400.jpg"
+                        src={hM}
                         height={'168px'}
                         width={'254px'}
                         alt={'teste'}
@@ -93,7 +109,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <AnimationOnScroll animateOnce={anmOnc} animateIn={anmIn} initiallyVisible={ita} duration={3}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2022/02/a141a756-0fc9-4f66-a334-9928add80ffa-600x419.jpg"
+                        src={hC6}
                         height={'129px'}
                         width={'252px'}
                         alt={'teste'}
@@ -110,7 +126,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <AnimationOnScroll animateOnce={anmOnc} animateIn={anmIn} initiallyVisible={ita} duration={3}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2022/02/c3a78523-64ca-4dd5-aa9b-8f5e7ce2c71e-600x400.jpg"
+                        src='https://casamento.photosites.com.br/wp-content/uploads/2020/02/MG_0310-min-600x400.jpg'
                         height={'129px'}
                         width={'252px'}
                         alt={'teste'}
@@ -121,7 +137,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <AnimationOnScroll animateOnce={anmOnc} animateIn={anmIn} initiallyVisible={ita} duration={3}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2022/02/9264ccf8-32d5-4ed3-a26b-106da89b7679-600x900.jpg"
+                        src={vN3}
                         height={'378px'}
                         width={'252px'}
                         alt={'teste'}
@@ -136,7 +152,7 @@ export const Gallery = ({ title, paragraph }: Gallery) => <aside>
                 <AnimationOnScroll animateOnce={anmOnc} animateIn={anmIn} initiallyVisible={ita} duration={3}>
                     <Image
                         priority
-                        src="https://casamento.photosites.com.br/wp-content/uploads/2022/02/f9d78e08-79aa-46cd-be80-8273a6ca7d4e-600x400.jpg"
+                        src={hN1}
                         height={'338px'}
                         width={'508px'}
                         alt={'teste'}
