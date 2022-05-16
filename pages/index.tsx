@@ -10,8 +10,31 @@ import { Gallery } from '../components/gallery'
 const Home: NextPage = () => {
   return (
     <Layout>
-      <section className={styles.gallery}>
-         <Gallery title="Victor" paragraph="Esse é meu nome!" />
+      <section className={styles.conten}>
+        <section className={styles.firstCollumn}>
+          <menu className={styles.menu}>
+            <nav>
+            <div className={styles.logoPic}>
+            <Image src={CasamentoArLivrePic} height={150} width={136} ></Image>
+            </div>
+              <a href="/">Portifólio</a>
+              <a href="/">Trabalhos</a>
+              <a href="/">Orçamentos</a>
+              <a href="/">Workshops + Presents</a>
+              <a href="/">Prices and Packages</a>
+              <a href="/">Área do cliente / Client Area</a>
+            </nav>
+          </menu>
+        </section>
+        <section className={styles.intro}>
+          <Image src={CasamentoArLivrePic} className={styles.dinhoPic} height={150} width={150}></Image>
+          <h2>Hey! <br /> eu sou o dinho</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur iure dolore modi quas delectus, similique laboriosam velit sit excepturi cumque officia? Obcaecati in eaque, commodi illo quos amet voluptas?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquid natus labore saepe delectus voluptate nulla, culpa in maiores! Atque consequuntur necessitatibus voluptate reiciendis tempora ut numquam dolorum deserunt ea.</p>
+        </section>
+        <section className={styles.gallery}>
+          <Gallery title="Victor" paragraph="Esse é meu nome!" />
+        </section>
       </section>
     </Layout >
   )
