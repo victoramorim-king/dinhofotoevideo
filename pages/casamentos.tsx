@@ -18,6 +18,7 @@ import vN1 from '../public/v-noiva-1.jpg'
 import vN2 from '../public/v-noiva-2.jpg'
 import vN3 from '../public/v-noiva-3.jpg'
 import vN4 from '../public/v-noiva-4.jpg'
+import { NextPage } from "next/types";
 
 const Casamentos: NextPage = () => {
     return(
