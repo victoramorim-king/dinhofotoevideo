@@ -18,12 +18,12 @@ const Home: NextPage = () => {
             <Image src={CasamentoArLivrePic} height={150} width={136} ></Image>
             </div>
               
-              <a href="/">Portifólio</a>
-              <a href="/">Trabalhos</a>
-              <a href="/">Orçamentos</a>
-              <a href="/">Workshops + Presents</a>
-              <a href="/">Prices and Packages</a>
-              <a href="/">Área do cliente / Client Area</a>
+              <a href="">Portifólio</a>
+              <a href="">Trabalhos</a>
+              <a href="">Orçamentos</a>
+              <a href="">Workshops + Presents</a>
+              <a href="">Prices and Packages</a>
+              <a href="">Área do cliente / Client Area</a>
             </nav>
             <div className={styles.socialIcones}>
 
