@@ -17,7 +17,8 @@ const Home: NextPage = () => {
             <div className={styles.logoPic}>
             <Image src={CasamentoArLivrePic} height={150} width={136} ></Image>
             </div>
-              <a href="/casamentos">Portifólio</a>
+              
+              <a href="/">Portifólio</a>
               <a href="/">Trabalhos</a>
               <a href="/">Orçamentos</a>
               <a href="/">Workshops + Presents</a>
