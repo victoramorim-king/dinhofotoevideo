@@ -2,10 +2,6 @@
     display: flex;
     
 }
-@keyframes fadeinup {
-    from { opacity: 0.3; }
-    to { opacity: 1; } /* Padrão */
-}
 
 .pic {
     display: flex;
@@ -14,6 +10,8 @@
 
     
 }
+
+
 
 .pic2 {
     display: flex;

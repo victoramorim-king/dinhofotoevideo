@@ -17,17 +17,22 @@ const Home: NextPage = () => {
             <div className={styles.logoPic}>
             <Image src={CasamentoArLivrePic} height={150} width={136} ></Image>
             </div>
-              <a href="/">Portifólio</a>
+              <a href="/casamentos">Portifólio</a>
               <a href="/">Trabalhos</a>
               <a href="/">Orçamentos</a>
               <a href="/">Workshops + Presents</a>
               <a href="/">Prices and Packages</a>
               <a href="/">Área do cliente / Client Area</a>
             </nav>
+            <div className={styles.socialIcones}>
+
+            </div>
           </menu>
         </section>
         <section className={styles.intro}>
-          <Image src={CasamentoArLivrePic} className={styles.dinhoPic} height={150} width={150}></Image>
+          <div className={styles.dinhoPicContainer}>
+            <Image src={CasamentoArLivrePic} className={styles.dinhoPic} height={150} width={150}></Image>
+          </div>
           <h2>Hey! <br /> eu sou o dinho</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur iure dolore modi quas delectus, similique laboriosam velit sit excepturi cumque officia? Obcaecati in eaque, commodi illo quos amet voluptas?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquid natus labore saepe delectus voluptate nulla, culpa in maiores! Atque consequuntur necessitatibus voluptate reiciendis tempora ut numquam dolorum deserunt ea.</p>

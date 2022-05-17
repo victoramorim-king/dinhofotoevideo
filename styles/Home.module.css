@@ -8,38 +8,64 @@
 }
     
 .gallery {
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
-    grid-template-columns: 50%;
+    grid-template-columns: 100%;
+    max-width: 100%;
     grid-column: 3;
+    margin: auto; 
 }
 
 .menu {
     background-color: lightgray;
     display: grid;
     height: 100%;
-    max-width: 100%;
-    grid-template-columns: 1fr;
+    width: 16.22%;
     grid-column: 1;
     grid-row: auto;
     position: fixed;
-    padding: 10px;
-    margin: 0px;
+    padding: 15px;
+    margin: 0px auto;
+    line-height: 24px;
     
     
 }
 
 .menu > nav {
+   
+    line-height: 24px;
    display: grid; 
-   margin: 0px 0px auto 0px;
+   margin: 0px auto auto auto;
+   padding-left: 15px;
+   letter-spacing: 4px;
+   font: 15px 'pack8-c', Helvetica, Arial, Sans-Serif;
+   text-transform: uppercase;
+   word-wrap: break-word;
+   vertical-align: baseline;
+}
+
+.menu nav a {
+    padding: 4px 9px 3px 9px;
+    display: inline-block;
+    
+    line-height: 24px;
+}
+.menu nav a:hover {
+    border: solid 1px black;
+
 }
 
 .dinhoPic {
     border-radius: 9999px;
     margin: auto;
-    position: absolute;
+
     
+    
+}
+
+.dinhoPicContainer {
+    text-align: center;
 }
 
 .logoPic {
@@ -49,8 +75,31 @@
 
 .intro {
     grid-column: 2;
-    text-align: center;
+    text-align: justify;
+    color: #7e7e7c;
+    grid-template-columns: 100%; 
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto auto auto;
+    padding: 27px; 
+    font: 16px 'pack8-c', Helvetica, Arial, Sans-Serif;
+    margin-top: 75%;
+
 }
+
+.intro h2 {
+    text-align: justify;
+    font-family:  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #575757;
+}
+
+.intro p {
+    font-size: 15px;
+    color: #7e7e7c;
+    line-height: 25px;
+}
+
 
 .conten {
     display: grid;

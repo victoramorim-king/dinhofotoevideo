@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import CasamentoArLivrePic from '../public/casamento-ao-ar-livre.jpg'
+
 
 const name = 'Dinho Foto e vídeo'
 export const siteTitle = 'Dinho foto e vídeo'
@@ -33,24 +35,24 @@ export default function Layout({
       </Head>
       <header className={styles.header}>
         {
-          /*
-          <>
-            <h1 className={styles.title}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h1>
-            <nav className={styles.menu}>
-                <ul>
-                    <li><a>Início</a></li>
-                    <li><a>Portfólio</a></li>
-                    <li><a>Casamentos</a></li>
-                    <li><a>Debutante 15 anos</a></li>
-                    <li><a>Festa infantil</a></li>
-                </ul>
+        <section className={styles.firstCollumn}>
+          <menu className={styles.menu}>
+            <nav>
+            <div className={styles.logoPic}>
+            <Image src={CasamentoArLivrePic} height={150} width={136} ></Image>
+            </div>
+              <a href="/casamentos">Portifólio</a>
+              <a href="/">Trabalhos</a>
+              <a href="/">Orçamentos</a>
+              <a href="/">Workshops + Presents</a>
+              <a href="/">Prices and Packages</a>
+              <a href="/">Área do cliente / Client Area</a>
             </nav>
-          </>
-          */
+            <div className={styles.socialIcones}>
+
+            </div>
+          </menu>
+        </section>
         }
       </header>
       <main className={styles.container}>{children}</main>
